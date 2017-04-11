@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="quizgame.test.com.quizgame.MainGame"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="結果"
+        android:id="@+id/textsum"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#58BE89"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Result"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="46dp"
+        android:layout_weight="0.69" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESULT"
+        android:id="@+id/button1"
+        android:textSize="26dp"
+        android:onClick="onClick"
+        android:layout_weight="0.08" />
+
+</LinearLayout>
